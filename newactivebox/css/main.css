@@ -53,10 +53,8 @@ header {
 .header-menu {
     border-bottom: 1px solid #50536a;
     display: flex;
-    /* меню сместим влево */
     flex-direction: row;
     justify-content: space-between;
-    /* меню сместим влево */
     /* располагает по нетру по supp линиии */
     align-items: center;
     /* располагает по нетру по supp линиии */
@@ -127,11 +125,18 @@ header {
     line-height: 46px;
     background-color: #e84545;
     text-align:center;
-    text-decoration: none;
+    text-decoration: none; 
+    color: #FFF;
 }
 /* header */
 
 /* features */
+.features {
+    background-color: #FFF;
+    
+
+}
+
 .featurescontent {
     display: flex;
 	flex-wrap: wrap;
@@ -139,7 +144,7 @@ header {
 	align-content: space-between;
 	text-align: center;
 	padding-top: 120px;
-	padding-bottom: 50px;
+    padding-bottom: 90px;    
 }
 
 .feat {
@@ -163,7 +168,57 @@ header {
 	line-height: 21px;
 	margin: 0 auto;
 }
+
+.feature-image {
+    margin-bottom: 35px;
+}
+
 /* features */
+
+/* works */
+.works {
+    display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: space-between;
+    text-align: center;
+    background-color: #2b2e4a;
+}
+ /* описание ссылки */
+.works a {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+.works a img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.works-text {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.works a:hover .works-text {
+    display: block;
+
+}
+
+.work1 {
+    width: 25%;
+}
+
+.works-title {
+
+}
+
+/* works */
 
 /* team */
 
