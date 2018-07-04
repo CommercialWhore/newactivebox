@@ -279,18 +279,44 @@ header {
     background-color: #53354a;
     width: 100%;
     margin: 0 auto;
+
 }
 
 
 .clientsphoto {
     width: 50%;
     height: 100%;
-    background: url(../image/clients/1.jpg) no-repeat top right;
+    background-image: url(/newactivebox/newactivebox/image/clients/1.jpg) center no-repeat; 
     background-size: cover;
-
+    top: 0px;
+    left: 0px;
 }
 
-  
+
+
+.text {
+    width: 50%;
+}
+
+.clients-text {
+    font-family: 'Cardo', serif;
+    color: #fff;
+    font-size: 36px;
+    line-height: 42px;
+    padding-top: 114px;
+    padding-bottom: 30px;
+    padding-left: 85px;
+    width: 500px;
+} 
+ .clients-name {
+    font-family: 'Raleway', bold;
+    color: #fff;
+    font-size: 13px;
+    line-height: 21px;
+    padding-bottom: 30px;
+    padding-left: 85px;
+ }
+
 /* clients  */
 
 /* download */
