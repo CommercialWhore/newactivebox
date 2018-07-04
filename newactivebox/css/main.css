@@ -276,7 +276,8 @@ header {
 /* clients */
 .clients {
     display: flex;
-    background-color: #53354a;
+    /* background-color: #53354a; */
+    background-color: red;
     width: 100%;
     margin: 0 auto;
 
@@ -286,16 +287,15 @@ header {
 .clientsphoto {
     width: 50%;
     height: 100%;
-    background: url("/newactivebox/newactivebox/image/clients/1.jpg") center no-repeat; 
-    background-size: cover;
-    top: 0px;
-    left: 0px;
 }
-
 
 
 .text {
     width: 50%;
+    /* display: flex;
+    flex: column; */
+ 
+
 }
 
 .clients-text {
@@ -303,20 +303,31 @@ header {
     color: #fff;
     font-size: 36px;
     line-height: 42px;
-    padding-top: 114px;
-    padding-bottom: 30px;
-    padding-left: 85px;
-    width: 500px;
+    /* margin-left: 75px;
+    margin-top: 75px;
+    margin-bottom: 30px;
+    margin-right: 25px; */
+    /* padding-bottom: 6%;
+    padding-left: 15%;
+    width: 500px; */
 } 
+
  .clients-name {
     font-family: 'Raleway', bold;
     color: #fff;
     font-size: 13px;
     line-height: 21px;
-    padding-bottom: 30px;
-    padding-left: 85px;
+    text-transform: uppercase;
+    /* margin-left: 75px;  */
+    /* padding-left: 15%; */
  }
 
+ .half {
+     /* разрешение 1920 */
+     width: 78%;
+     margin-left: 75px;
+     margin-top: 75px;
+ }
 /* clients  */
 
 /* download */
