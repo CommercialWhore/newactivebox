@@ -112,6 +112,7 @@ header {
     margin-top: 40px;
     margin-bottom: 80px;
 }
+
 .header-content-button {
     margin-bottom: 156px;
     width: 200px;
@@ -121,8 +122,12 @@ header {
 .header-content-button a {
     /* растягивает ссыль на родительский элемент */
     display: block;
-    /* задаем высоту ссылки */
-    line-height: 46px;
+    /* задаем высоту ссылки  увеличивая размер межсрочного интервала*/
+    font-family: 'raleway', bold;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 46px; 
     background-color: #e84545;
     text-align:center;
     text-decoration: none; 
@@ -277,7 +282,7 @@ header {
 .clients {
     display: flex;
     /* background-color: #53354a; */
-    background-color: red;
+    background-color: #53354a;
     width: 100%;
     margin: 0 auto;
 
@@ -298,6 +303,13 @@ header {
 
 }
 
+.half {
+    /* разрешение 1920 */
+    width: 78%;
+    margin-left: 75px;
+    margin-top: 75px;
+}
+
 .clients-text {
     font-family: 'Cardo', serif;
     color: #fff;
@@ -314,24 +326,72 @@ header {
 
  .clients-name {
     font-family: 'Raleway', bold;
+    font-weight: bold;
     color: #fff;
     font-size: 13px;
     line-height: 21px;
     text-transform: uppercase;
+    padding-top: 23px;
     /* margin-left: 75px;  */
     /* padding-left: 15%; */
  }
 
- .half {
-     /* разрешение 1920 */
-     width: 78%;
-     margin-left: 75px;
-     margin-top: 75px;
- }
+
 /* clients  */
 
 /* download */
+.download-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
 
+.download-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', serif;
+    color: #2d3033;
+    font-size: 28px;
+    line-height: 21px;
+    padding-top: 100px;
+}
+
+.download-content h1 {
+    font-family: 'raleway', bold;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #2d3033;
+    font-size: 13px;
+    line-height: 21px;
+    padding-top: 12px;
+    padding-bottom: 38px;
+}
+
+.download-button {
+    margin-bottom: 100px;
+    width: 280px;
+
+}
+
+.download-button a {
+    /* растягивает ссыль на родительский элемент */
+    display: block;
+    /* задаем высоту ссылки  увеличивая размер межсрочного интервала*/
+    font-family: 'raleway', bold;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 46px; 
+    background-color: #e84545;
+    text-align:center;
+    text-decoration: none; 
+    text-transform: uppercase;
+    color: #FFF;
+}
 
 /* download */
 
