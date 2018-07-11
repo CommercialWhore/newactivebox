@@ -416,6 +416,11 @@ header {
     width: 33.3333%;
     flex-wrap: wrap;
     flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
 }
 
 .topcont h1 {
