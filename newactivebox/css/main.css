@@ -245,9 +245,13 @@ header {
     padding-bottom: 100px;
 
 }
-.team{
-    padding-right: 30px;
-   
+.team {
+    margin: 0 15px;
+    width: 25%;
+}
+
+.team > img {
+    width: 100%;
 }
 
 .team-name {
@@ -454,25 +458,29 @@ header {
     background-color: #313454;
     justify-content: center;
     text-align: center;
-
 }
 
-.footer-bottom-text {
+/* .footer-bottom-text {
     width: 312px;
+} */
+
+.footer-bottom {
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
-.footer-bottom p {
+.footer-bottom-text p {
     font-family: 'raleway', sans-serif;
     font-weight: bold;
-    text-transform: uppercase;
     font-size: 13px;
-    line-height: 22.5px; 
+    line-height: 26.5px; 
     width: 100%;
     margin: 0 auto;
     color: #9698ac;
+    /* padding-top: 29px; */
 }
 
-.footer-second {
+/* .footer-second {
     font-family: 'raleway', sans-serif;
     font-weight: bold;
     font-size: 13px;
@@ -480,10 +488,42 @@ header {
     width: 100%;
     margin: 0 auto;
     color: #FFF;
-}
+} */
 
 .footer-second i {
     color: #e84545;
+    font-size: 12px;
+    line-height: 26.5px;
+}
+
+.footer-second span {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 26.5px; 
+    width: 100%;
+    margin: 0 auto;
+    color: #FFF;
 }
 
 /* footer */
+
+/* media */
+@media screen and (max-device-width: 1200px) {
+    .container, .footer-container {
+        width: 960px;
+    }
+}
+
+@media screen and (max-device-width: 968px) {
+    .container, .footer-container {
+        width: 640px;
+    }
+    .header-content-container{
+        width: 640px;
+    }
+    .teamcontainer {
+        width: 640px;
+    }
+}
+/* заменить отступы на margin в team */
